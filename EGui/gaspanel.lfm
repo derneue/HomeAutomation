@@ -1,0 +1,21 @@
+object GasPanel: TGasPanel
+  Left = 402
+  Height = 664
+  Top = 212
+  Width = 675
+  BorderStyle = bsNone
+  Caption = 'GasPanel'
+  ClientHeight = 664
+  ClientWidth = 675
+  Color = clMoneyGreen
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object Label1: TLabel
+    Left = 41
+    Height = 15
+    Top = 41
+    Width = 59
+    Caption = 'GasPanel'
+    ParentColor = False
+  end
+end

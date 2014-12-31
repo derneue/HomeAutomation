@@ -11,3 +11,6 @@ lib/
 
 *.exe
 
+# Binary
+EGui/EGui
+

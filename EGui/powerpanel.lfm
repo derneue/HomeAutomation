@@ -1,0 +1,21 @@
+object PowerPanel: TPowerPanel
+  Left = 320
+  Height = 664
+  Top = 206
+  Width = 675
+  BorderStyle = bsNone
+  Caption = 'PowerPanel'
+  ClientHeight = 664
+  ClientWidth = 675
+  Color = clMoneyGreen
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object Label1: TLabel
+    Left = 28
+    Height = 15
+    Top = 24
+    Width = 72
+    Caption = 'PowerPanel'
+    ParentColor = False
+  end
+end

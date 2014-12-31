@@ -1,0 +1,37 @@
+object SystemPanel: TSystemPanel
+  Left = 320
+  Height = 725
+  Top = 206
+  Width = 753
+  BorderStyle = bsNone
+  Caption = 'SystemPanel'
+  ClientHeight = 725
+  ClientWidth = 753
+  Color = clMoneyGreen
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object LogBox: TListBox
+    Left = 9
+    Height = 518
+    Top = 10
+    Width = 650
+    Color = clMoneyGreen
+    Items.Strings = (
+      'Home Automation Control v1.0A started'
+      'Logging active, Logfile: %s'
+    )
+    ItemHeight = 21
+    ItemIndex = 0
+    ParentFont = False
+    ScrollWidth = 648
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 9
+    Height = 106
+    Top = 543
+    Width = 650
+    Caption = 'Systemstatus'
+    TabOrder = 1
+  end
+end
